@@ -1,0 +1,62 @@
+{
+  "campos": [
+    {
+      "nombre": "Campo La Esperanza",
+      "ubicacion": {
+        "provincia": "Buenos Aires",
+        "ciudad": "Azul",
+        "coordenadas": {
+          "latitud": -36.779,
+          "longitud": -59.869
+        }
+      },
+      "parcelas": [
+        {
+          "numero": 1,
+          "tamanio": 20,
+          "tipoCultivo": "Soja",
+          "estado": "En crecimiento"
+        },
+        {
+          "numero": 2,
+          "tamanio": 25,
+          "tipoCultivo": "Maíz",
+          "estado": "Cosechado"
+        }
+      ],
+      "dueno": {
+        "nombre": "Carlos García",
+        "contacto": "+5491123456789"
+      }
+    },
+    {
+      "nombre": "Campo El Sol",
+      "ubicacion": {
+        "provincia": "Córdoba",
+        "ciudad": "Río Cuarto",
+        "coordenadas": {
+          "latitud": -33.133,
+          "longitud": -64.349
+        }
+      },
+      "parcelas": [
+        {
+          "numero": 1,
+          "tamanio": 15,
+          "tipoCultivo": "Trigo",
+          "estado": "Por sembrar"
+        },
+        {
+          "numero": 2,
+          "tamanio": 30,
+          "tipoCultivo": "Girasol",
+          "estado": "En crecimiento"
+        }
+      ],
+      "dueno": {
+        "nombre": "Lucía Fernández",
+        "contacto": "+5492123456789"
+      }
+    }
+  ]
+}
