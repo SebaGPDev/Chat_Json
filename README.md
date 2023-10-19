@@ -7,7 +7,7 @@ Este documento proporciona los pasos para configurar y usar un entorno virtual e
 Abre la línea de comandos y navega al directorio donde deseas crear tu entorno virtual. Ejecuta el siguiente comando para crear un nuevo entorno virtual llamado `venv`:
 
 ```shell
-python -m venv venv
+python3 -m venv venv
 ```
 
 Esto creará un nuevo directorio llamado venv en tu directorio actual, que contendrá el entorno virtual.
