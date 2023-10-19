@@ -1,4 +1,4 @@
-# Configuración del Entorno Virtual en Windows
+# Configuración del Entorno Virtual en Linux
 
 Este documento proporciona los pasos para configurar y usar un entorno virtual en Windows, instalar las dependencias necesarias y ejecutar una aplicación Python.
 
@@ -16,7 +16,7 @@ Esto creará un nuevo directorio llamado venv en tu directorio actual, que conte
 Para activar el entorno virtual en Windows, ejecuta el siguiente comando:
 
 ```shell
-.\venv\Scripts\activate
+source venv/bin/activate
 ```
 
 Verás que el prompt de tu línea de comandos cambia para mostrar el nombre del entorno virtual, indicando que está activo.
@@ -32,14 +32,10 @@ pip install -r requirements.txt
 Finalmente, puedes ejecutar tu aplicación Python con el siguiente comando:
 
 ```shell
-python app.py
+uvicorn app:app --reload
 ```
 
 Asegúrate de que app.py esté en tu directorio actual o proporciona la ruta completa al archivo.
 
 ## Conclusión
-Ahora tienes un entorno virtual configurado y activo en tu sistema Windows, has instalizado las dependencias necesarias y has ejecutado tu aplicación Python. Asegúrate de desactivar el entorno virtual cuando hayas terminado, ejecutando el comando:
-
-```shell
-deactivate
-```
+Ahora tienes un entorno virtual configurado y activo en tu sistema Windows, has instalizado las dependencias necesarias y has ejecutado tu aplicación Python.
