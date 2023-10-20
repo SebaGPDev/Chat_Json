@@ -1,0 +1,25 @@
+{
+    "alumnos": [
+      {
+        "nombre": "Juan Pérez",
+        "asistencia": ["presente", "ausente", "presente", "presente", "ausente", "presente", "presente", "presente", "presente", "ausente"]
+      },
+      {
+        "nombre": "María Rodríguez",
+        "asistencia": ["presente", "presente", "presente", "ausente", "ausente", "presente", "presente", "ausente", "presente", "presente"]
+      },
+      {
+        "nombre": "Luis González",
+        "asistencia": ["presente", "presente", "presente", "presente", "presente", "presente", "presente", "presente", "presente", "presente"]
+      },
+      {
+        "nombre": "Ana Martínez",
+        "asistencia": ["presente", "presente", "ausente", "presente", "presente", "presente", "presente", "ausente", "presente", "presente"]
+      },
+      {
+        "nombre": "Pedro Sánchez",
+        "asistencia": ["ausente", "presente", "presente", "presente", "ausente", "presente", "presente", "presente", "ausente", "presente"]
+      }
+    ]
+  }
+  
